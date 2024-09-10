@@ -79,4 +79,4 @@ jobs:
       run: g++ 2dz3/main.cpp 2dz3/Book.cpp 2dz3/Library.cpp 2dz3/Library_setup.cpp -o result
       
     - name: run
-      run: result
+      run: ./result
